@@ -120,32 +120,34 @@ VGG16보다 32배 가볍고 27배 연산량이 적지만 성능은 비슷하다�
 
 ### 파라미터 결정
 
-Batch size(64, 128,256), Learning Rate(LearningRateScheduler, ReduceLROnPlateau), Dropout(Dropout 없이 학습, (Dense Layer) Dropout, Conv Layer Dropout)등의 하이퍼 파리미터를 조절해가며 최적의 성능을 보이는 모델을 찾았다.
+Batch size(64, 128,256), Learning Rate(LearningRateScheduler, ReduceLROnPlateau), Dropout(Dropout 없이 학습, (Dense Layer) Dropout, Conv Layer Dropout)등의 하이퍼 파리미터를 조절해가며 최적의 성능을 보이는 모델을 찾았습니다.
 
 ### 결과
-![1)]
+
+![1)](https://github.com/kimjoosilver/Image_Classification/assets/87303227/5d1d74c5-ca22-417e-8519-94bdfc699e2a)
 
 
-VGG19, MobileNetV3, ResNet50 모델의 결과로 얻은 각 범주에 대한 확률을 평균내어(Soft Voting) 앙상블을 한 모델의 Top3 Accuracy가 가장 높게 나왔다.
+VGG19, MobileNetV3, ResNet50 모델의 결과로 얻은 각 범주에 대한 확률을 평균내어(Soft Voting) 앙상블을 한 모델의 Top3 Accuracy가 가장 높게 나왔습니다.
 
-Top1 Acuuracy 뿐만 아니라 Top3 Accuracy도 함께 본 이유는, 일치하는 항목 뿐만 아니라 비슷한 물건을 함께 추천하여 고객의 만족도를 높이기 위함이다.
+Top1 Acuuracy 뿐만 아니라 Top3 Accuracy도 함께 본 이유는, 일치하는 항목 뿐만 아니라 비슷한 물건을 함께 추천하여 고객의 만족도를 높이기 위함입니다.
 
 
 ## 4. Inference
 
-![슬라이드25]
+![슬라이드25](https://github.com/kimjoosilver/Image_Classification/assets/87303227/65415f95-6878-45d4-80eb-8362dfa58f46)
 
 
-https://drive.google.com/file/d/1h7okgIv83bBd9Z9C08hRauE3FHXR6SuN/view?usp=sharing
+
+코랩 링크: https://drive.google.com/file/d/1h7okgIv83bBd9Z9C08hRauE3FHXR6SuN/view?usp=sharing
 
 
 
 ## 5. 프로젝트를 마치며
 
 한계점 및 느낀점
-1. 크롤링과 데이터 선별에 시간이 많이 소요되어 일부 항목으로 제한시켰다. 이를 모든 상품으로 일반화 시킬 필요성이 있다.
+1. 크롤링과 데이터 선별에 시간이 많이 소요되어 일부 항목으로 제한시켰습니다. 이를 모든 상품으로 일반화 시킬 필요성이 있습니다.
 
-2. 이미지 분류를 위해 제품이 2개 이상 포함된 이미지를 제거하였다. 이미지 분류가 아닌 객체인식을 사용하여 여러 물건을 동시에 검색할 수 있도록 만드는 것이 서비스 측면에서 더 좋지 않을까 생각이 들었다.
+2. 이미지 분류를 위해 제품이 2개 이상 포함된 이미지를 제거하였습니다. 이미지 분류가 아닌 객체인식을 사용하여 여러 물건을 동시에 검색할 수 있도록 만드는 것이 서비스 측면에서 더 좋지 않을까 생각이 들었습니다.
 
 ![슬라이드28](https://github.com/kimjoosilver/Image_Classification/assets/87303227/3c9cc8c7-e9ab-4a24-bdb3-422ce9f6580d)
 
