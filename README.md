@@ -10,7 +10,7 @@
 
 ## 목차
 
-[1. 배경](##-1.-배경)
+[배경](##-배경)
 
 [2. 데이터 소개 및 전처리](##-2.-데이터-소개-및-전처리)
 
@@ -18,7 +18,7 @@
 4. Inference
 5. 프로젝트를 마치며
 
-## 1. 배경
+## 배경
 
 ![이미지 분류 pptx](https://github.com/kimjoosilver/Image_Classification/assets/87303227/b39dc0d6-bcf4-4936-91d1-9afa5379dde7)
 
