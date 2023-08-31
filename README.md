@@ -18,7 +18,7 @@
 4. Inference
 5. 프로젝트를 마치며
 
-#-배경
+# 배경
 
 ![이미지 분류 pptx](https://github.com/kimjoosilver/Image_Classification/assets/87303227/b39dc0d6-bcf4-4936-91d1-9afa5379dde7)
 
@@ -43,7 +43,7 @@
 2. 어플 사용자를 증가, e-커머스 업계에서 경쟁 우위를 확보
 
 
-## 2. 데이터 소개 및 전처리
+# 데이터 소개 및 전처리
 
 ### 데이터 출처 및 정제
 
